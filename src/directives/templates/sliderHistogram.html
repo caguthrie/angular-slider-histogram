@@ -1,5 +1,9 @@
-<div>
-    <rzslider rz-slider-model="slider.minValue" rz-slider-high="slider.maxValue" rz-slider-options="slider.options">
-    </rzslider>
-    <div class="slider-histogram"></div>
+<div style="position:relative;width:100%;height:100%">
+    <div style="position:absolute;width:100%;bottom:0;z-index:1;">
+        <rzslider rz-slider-model="slider.minValue" rz-slider-high="slider.maxValue" rz-slider-options="slider.options">
+        </rzslider>
+    </div>
+    <div style="position:absolute">
+        <div class="slider-histogram" style="width:100%;height:100%"></div>
+    </div>
 </div>

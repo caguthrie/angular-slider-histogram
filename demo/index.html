@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="../bower_components/angularjs-slider/dist/rzslider.min.css"/>
 </head>
 <body ng-app="slider-demo">
-    <div ng-controller="demoCtrl">
-        <slider-histogram slider="slider"></slider-histogram>
+    <div ng-controller="demoCtrl" style="height:100px;width:200px">
+        <slider-histogram ng-if="ready" slider="slider" series="series"></slider-histogram>
     </div>
 
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
@@ -15,6 +15,7 @@
     <script src="../bower_components/angularjs-slider/dist/rzslider.min.js"></script>
     <script src="../bower_components/highstock-release/highstock.js"></script>
     <script src="../bower_components/highstock-release/highcharts-more.js"></script>
+    <script src="../bower_components/lodash/dist/lodash.min.js"></script>
 
     <script src="../src/app.js"></script>
     <script src="../src/directives/sliderHistogram.js"></script>
