@@ -1,0 +1,6 @@
+.bowerrc
+bower_components
+node_modules
+.git
+.idea
+*.iml

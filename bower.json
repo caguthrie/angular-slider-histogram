@@ -1,0 +1,22 @@
+{
+  "name": "angular-slider-histogram",
+  "version": "0.0.0",
+  "authors": [
+    "Christopher Guthrie <christopher.a.guthrie@gmail.com>"
+  ],
+  "description": "An angular widget providing a histogram behind a slider",
+  "keywords": [
+    "angular",
+    "slider",
+    "histogram",
+    "chart"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
