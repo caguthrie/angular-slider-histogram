@@ -1,0 +1,1 @@
+const angularSliderHistogram = angular.module('angular-slider-histogram', ['rzModule']);

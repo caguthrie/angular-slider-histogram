@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../bower_components/angularjs-slider/dist/rzslider.min.css"/>
+</head>
+<body ng-app="slider-demo">
+    <div ng-controller="demoCtrl">
+        <slider-histogram slider="slider"></slider-histogram>
+    </div>
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angularjs-slider/dist/rzslider.min.js"></script>
+    <script src="../bower_components/highstock-release/highstock.js"></script>
+    <script src="../bower_components/highstock-release/highcharts-more.js"></script>
+
+    <script src="../src/app.js"></script>
+    <script src="../src/directives/sliderHistogram.js"></script>
+
+    <script src="demo.js"></script>
+</body>
+</html>
