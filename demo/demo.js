@@ -5,12 +5,12 @@ const sliderDemo = angular.module('slider-demo', ['angular-slider-histogram'])
         minValue: 20,
         maxValue: 50,
         options: {
-            floor: 0,
+            floor: -100,
             ceil: 100
         }
     };
 
-    $http.get("demoData.json").then(function(data){
+    $http.get("demoData2.json").then(function(data){
         $scope.series = _.map(data.data, function(point){
             return parseFloat(point.value);
         });
